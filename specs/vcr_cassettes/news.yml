@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ajax.googleapis.com/ajax/services/feed/find?q=news&v=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Tue, 12 Apr 2016 20:15:25 GMT
+      Content-Type:
+      - text/javascript; charset=utf-8
+      X-Backend-Content-Length:
+      - '2978'
+      X-Embedded-Status:
+      - '200'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alternate-Protocol:
+      - 443:quic
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="32,31,30,29,28,27,26,25"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"responseData": {"query":"news","entries":[{"url":"http://news.google.com/news?cf\u003dall\u0026hl\u003den\u0026pz\u003d1\u0026ned\u003dus\u0026topic\u003dh\u0026num\u003d3\u0026output\u003drss","title":"Google
+        \u003cb\u003eNews\u003c/b\u003e","contentSnippet":"Comprehensive up-to-date
+        \u003cb\u003enews\u003c/b\u003e coverage, aggregated from sources all over
+        the \u003cbr\u003e\nworld by Google \u003cb\u003eNews\u003c/b\u003e.","link":"https://news.google.com/"},{"url":"http://feeds.feedburner.com/foxnews/latest","title":"Fox
+        \u003cb\u003eNews\u003c/b\u003e - Breaking \u003cb\u003eNews\u003c/b\u003e
+        Updates | Latest \u003cb\u003eNews\u003c/b\u003e Headlines \u003cb\u003e...\u003c/b\u003e","contentSnippet":"Offers
+        worldwide \u003cb\u003enews\u003c/b\u003e coverage, analysis, show profiles,
+        broadcast schedules, \u003cbr\u003e\nteam biographies, and email \u003cb\u003enews\u003c/b\u003e
+        alerts.","link":"http://www.foxnews.com/"},{"url":"http://feeds.abcnews.com/abcnews/topstories","title":"ABC
+        \u003cb\u003eNews\u003c/b\u003e: Breaking \u003cb\u003eNews\u003c/b\u003e
+        \u0026amp; Latest Headlines","contentSnippet":"Get breaking national and world
+        \u003cb\u003enews\u003c/b\u003e, broadcast video coverage, and exclusive \u003cbr\u003e\ninterviews.
+        Find the top \u003cb\u003enews\u003c/b\u003e online at ABC \u003cb\u003eNews\u003c/b\u003e.","link":"http://abcnews.go.com/"},{"url":"http://www.npr.org/rss/rss.php?id\u003d1001","title":"\u003cb\u003eNews\u003c/b\u003e:
+        U.S. and World \u003cb\u003eNews\u003c/b\u003e Headlines : NPR","contentSnippet":"US
+        National Public Radio audio broadcast and text \u003cb\u003enews\u003c/b\u003e
+        stories and \u003cbr\u003e\ncommentaries.","link":"http://www.npr.org/sections/news/"},{"url":"https://www.reddit.com/r/news/.rss","title":"All
+        \u003cb\u003enews\u003c/b\u003e, US and international. - Reddit","contentSnippet":"is
+        not \u003cb\u003enews\u003c/b\u003e; is an opinion/analysis or advocacy piece.
+        primarily concerns ... If \u003cbr\u003e\nyour post doesn\u0026#39;t fit,
+        consider finding an appropriate \u003cb\u003enews\u003c/b\u003e article on
+        that story to\u0026nbsp;...","link":"https://www.reddit.com/r/news/"},{"url":"http://www.usnews.com/rss/news","title":"\u003cb\u003eNews\u003c/b\u003e
+        - US \u003cb\u003eNews\u003c/b\u003e \u0026amp; World Report","contentSnippet":"Get
+        breaking \u003cb\u003enews\u003c/b\u003e headlines with the latest \u003cb\u003enews\u003c/b\u003e
+        from the US and current world \u003cbr\u003e\n\u003cb\u003enews\u003c/b\u003e
+        stories. Read about the US government and economy, the Obama\u0026nbsp;...","link":"http://www.usnews.com/news"},{"url":"http://feeds.nydailynews.com/nydnrss","title":"Breaking,
+        World, US \u0026amp; Local \u003cb\u003eNews\u003c/b\u003e - nydailynews.com
+        - NY Daily \u003cb\u003e...\u003c/b\u003e","contentSnippet":"Find breaking
+        US \u003cb\u003enews\u003c/b\u003e, local New York \u003cb\u003enews\u003c/b\u003e
+        coverage, sports, entertainment \u003cbr\u003e\n\u003cb\u003enews\u003c/b\u003e,
+        celebrity gossip, autos, videos and photos at nydailynews.com.","link":"http://www.nydailynews.com/"},{"url":"http://www.salon.com/feed/","title":"\u003cb\u003eNews\u003c/b\u003e
+        - Salon.com","contentSnippet":"Philistines are marching, swarming Trump rallies.
+        0 David Masciotra \u0026middot; We let the \u003cbr\u003e\nidiots take the
+        wheel: Donald Trump, Fox \u003cb\u003eNews\u003c/b\u003e and how we. Top Stories;
+        Most\u0026nbsp;...","link":"http://www.salon.com/category/news/"},{"url":"https://news.usni.org/feed","title":"U.S.
+        Naval Flight Officer Lt. Cmdr. Edward Lin Accused of Giving \u003cb\u003e...\u003c/b\u003e","contentSnippet":"2
+        days ago \u003cb\u003e...\u003c/b\u003e Several sources familiar with the
+        case told USNI \u003cb\u003eNews\u003c/b\u003e the country to which Lin \u003cbr\u003e\npassed
+        secrets was China, however, few other details are\u0026nbsp;...","link":"https://news.usni.org/2016/04/10/u-s-naval-flight-officer-lt-cmdr-edward-lin-accused-of-giving-u-s-secrets-to-china"},{"url":"http://www.msnbc.com/feeds/latest","title":"MSNBC:
+        \u003cb\u003enews\u003c/b\u003e, video and progressive community. Lean Forward.","contentSnippet":"The
+        shows you love, issues that matter: Rachel Maddow, Lawrence O\u0026#39;Donnell,
+        \u003cbr\u003e\nChris Hayes, Chris Matthews, Al Sharpton, Ed Schultz, Joe
+        Scarborough.","link":"http://www.msnbc.com/"}]}, "responseDetails": null,
+        "responseStatus": 200}'
+    http_version: 
+  recorded_at: Tue, 12 Apr 2016 20:15:26 GMT
+recorded_with: VCR 3.0.1
